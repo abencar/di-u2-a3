@@ -20,7 +20,7 @@ export default function Home() {
     <br />
     <br />
     <h1>Ejercicio 3</h1>
-    <DrinkList />
+    <DrinkList {...DrinkList}/>
     </>
   );
 }

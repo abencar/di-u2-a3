@@ -1,10 +1,10 @@
 function Item({ name, importance }) {
-    return (
-      <li className="item">
-        {name}
-      </li>
-    );
-  }
+  return (
+    <li className="item">
+      {importance > 0 ? <i>{name}</i> : name}
+    </li>
+  );
+}
   
   export default function PackingList2() {
     return (
